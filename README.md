@@ -12,9 +12,15 @@ https://github.com/Neo-Maoku/expandTextSection/assets/26914648/99378d69-9383-490
 
   ![screenshots](./res/example.png)
 
+- 扩充程序需要有重定位表
+
 - 扩充32位程序比64的程序的兼容性好。因为64位程序很多数据没有用重定位表，需要反汇编字节码查看是否要添加偏移，导致会有部分数据处理失误。
 
 ### 项目使用vs 2022编译
+
+### B站地址
+
+【一款自研的无损扩充PE文件的text段大小的工具，助力木马免杀。】 https://www.bilibili.com/video/BV1yi421k7cj/?share_source=copy_web&vd_source=c75cdcc6b49a06fd849f2d392e8e3218
 
 ### 使用说明
 
